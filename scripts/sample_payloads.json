@@ -1,0 +1,7 @@
+{
+  "receiptTextExample": "Merchant: Fresh Mart Total: $42.15 Date: 2026-04-05",
+  "transactionTextExample": "Merchant: Metro Fuel Amount: $65.20 Date: 2026-04-04",
+  "safeMessage": "Your package has shipped. Track at ups.com/track.",
+  "warningMessage": "Verify account activity at secure-login.example",
+  "scamMessage": "URGENT click now to verify account at bit.ly/fake and share OTP"
+}
