@@ -1,0 +1,137 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.topbar h1 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-grid,
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.nav-card,
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 0.9rem;
+  border: 1px solid #e2e8f0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-safe {
+  border-color: #16a34a;
+}
+
+.card-warning {
+  border-color: #d97706;
+}
+
+.card-danger {
+  border-color: #dc2626;
+}
+
+.muted {
+  color: #64748b;
+  margin: 0.2rem 0;
+}
+
+.tx-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tx-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.tx-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.risk-pill,
+.risk-badge {
+  border-radius: 999px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.risk-pill,
+.badge-scam {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.badge-warning {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-safe {
+  background: #dcfce7;
+  color: #166534;
+}
+
+textarea,
+input,
+button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.65rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font: inherit;
+}
+
+button {
+  background: #0f172a;
+  color: white;
+  cursor: pointer;
+}
+
+.preview {
+  width: 100%;
+  max-height: 320px;
+  object-fit: contain;
+  margin-top: 0.8rem;
+  border-radius: 8px;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.filters {
+  display: grid;
+  gap: 0.5rem;
+}
